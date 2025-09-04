@@ -3,6 +3,25 @@ An operating system fully based on MicroPython for ESP32. It can run Python scri
 
 **Developed from scratch by Ege.**
 
+> **NOTE:** The previous version may run a bit slow due to some unexpected errors encountered today like this:
+```
+MPY: soft reboot
+=== Espy32 Bootloader ===
+[BOOT] Failed to mount SD card: timeout waiting for response
+[BOOT] SD card not detected. Entering rescue mode...
+=== Espy32 Rescue Mode ===
+SD card missing or kernel files are corrupted.
+Available commands: dir | reboot | exit
+rescue> REBOOT
+
+=== Espy32 Bootloader ===
+[BOOT] Failed to mount SD card: no SD card
+[BOOT] SD card not detected. Entering rescue mode...
+=== Espy32 Rescue Mode ===
+SD card missing or kernel files are corrupted.
+Available commands: dir | reboot | exit
+rescue> 
+```
 ## Features
 - 16GB SDHC card support.
 - Independent kernel error indicator via D1 pin.
