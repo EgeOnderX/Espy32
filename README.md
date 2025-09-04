@@ -5,6 +5,18 @@ An operating system fully based on MicroPython for ESP32. It can run Python scri
 
 > **NOTE:** The previous version may run a bit slow due to some unexpected errors encountered today like this:
 ```
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:4112
+load:0x40078000,len:15072
+load:0x40080400,len:4
+load:0x40080404,len:3332
+entry 0x400805ac
+
 MPY: soft reboot
 === Espy32 Bootloader ===
 [BOOT] Failed to mount SD card: timeout waiting for response
@@ -13,7 +25,7 @@ MPY: soft reboot
 SD card missing or kernel files are corrupted.
 Available commands: dir | reboot | exit
 rescue> REBOOT
-
+mode:DIO, clock div:2
 === Espy32 Bootloader ===
 [BOOT] Failed to mount SD card: no SD card
 [BOOT] SD card not detected. Entering rescue mode...
