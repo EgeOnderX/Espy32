@@ -1,6 +1,8 @@
 # Espy32 ( 1.0.6 )
 An operating system fully based on MicroPython for ESP32. It can run Python scripts, load drivers, write programs in its built-in Python interpreter, and even play basic music.
 
+**Developed from scratch by Ege.**
+
 ## Features
 - 16GB SDHC card support.
 - Independent kernel error indicator via D1 pin.
