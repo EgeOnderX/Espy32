@@ -3,7 +3,8 @@ An operating system fully based on MicroPython for ESP32. It can run Python scri
 
 **Developed from scratch by Ege.**
 
-> **NOTE:** The previous version may run a bit slow due to some unexpected errors encountered today like this:
+> **NOTE:** The other version may be a little slower to appear on GitHub because, for some reason, these errors occurred today:
+
 ```
 ets Jul 29 2019 12:21:46
 
@@ -71,6 +72,7 @@ rescue>
 ## **Why this project exists while other ESP32 operating systems already exist:**  
 Because this system is **fully based on MicroPython**, unlike others that run at a **low hardware level**.  
 *(This is also why dual-core support is currently unavailable.)*
+
 ## Future Plans
 - Add display (screen) support.
 - Enable dual-core support for better multitasking.
