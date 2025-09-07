@@ -10,6 +10,7 @@ An operating system fully based on MicroPython for ESP32. It can run Python scri
 - SD card library embedded into `hal.py`.
 - Separated kernel-bootloader system.
 - Run Python files directly using the `RUN` command.
+- startup script (startup.py) for automatic startup commands.
 
 ---
 
@@ -56,7 +57,7 @@ Unlike other ESP32 operating systems that run at a low hardware level, Espy32 is
 - **EXIT**      : Exit Espy32
 ---
 
-## Error Codes
+## BSOD
 If you see an error like this, take a closer look at the error codes:  
 
 '''
