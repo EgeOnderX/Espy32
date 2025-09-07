@@ -96,6 +96,7 @@ If Espy32 encounters a problem, the kernel will call the `bsod` function (Bad Sc
 - On every boot, the kernel checks whether the files on the SD card exist.
 - If a system file is missing, the **D1 LED** will blink **twice**. You can monitor this via the serial port.
 
+## Sample program with editor:
 
 ## Version Plan
 - Evolution path:  
