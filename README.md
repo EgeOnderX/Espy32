@@ -91,6 +91,10 @@ If Espy32 encounters a problem, the kernel will call the `bsod` function (Bad Sc
 - `UNKNOWN ERROR`  
   Used by `bsod` when no error code is provided. Indicates an unspecified problem.
 
+> **NOTE:** These are **critical errors**.  
+> For example, the `INVALID_CURRENT_DIR` error is **rare** because it requires the **current working directory** to become **invalid** while the user is **still inside it**.  
+>  
+> In this case, `CD ..` or `CD` commands will **not** work.
 
 ## Security
 - A folder depth limit has been added for the `tree` command.
