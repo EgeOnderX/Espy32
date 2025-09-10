@@ -60,7 +60,8 @@ Unlike other ESP32 operating systems that run at a low hardware level, Espy32 is
 ## BSOD
 If you see an error like this, take a closer look at the error codes:  
 
-'''
+```
+
 :( Espy32 ran into a problem and needs to restart.
             
 Technical information:
@@ -69,7 +70,8 @@ Technical information:
 
 More info : https://github.com/EgeOnderX/Espy32/
 Press any key to restart.
-'''
+
+```
 
 ## Error Codes
 If Espy32 encounters a problem, the kernel will call the `bsod` function (Bad Screen of Death) and display a stop message. Here's what each error code means:
@@ -96,7 +98,6 @@ If Espy32 encounters a problem, the kernel will call the `bsod` function (Bad Sc
 - On every boot, the kernel checks whether the files on the SD card exist.
 - If a system file is missing, the **D1 LED** will blink **twice**. You can monitor this via the serial port.
 
-## Sample program with editor:
 
 ## Version Plan
 - Evolution path:  
